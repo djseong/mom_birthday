@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2, 
+
+  "name": "Mom's Birthday", 
+  "description": "Fun chrome extension for birthday", 
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "favicon.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "http://*/*", 
+    "https://*/*"
+  ], 
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "web_accessible_resources": ["mom_app_pictures/*"]
+}

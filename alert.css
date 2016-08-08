@@ -1,0 +1,60 @@
+dialog {
+  background-color: blue
+}
+
+#dialogoverlay {
+  display: table;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+}
+
+#dialogbox {
+  position:relative;
+  display: table;
+  background: #FFF;
+  border-radius:7px; 
+  z-index: 999999;
+  text-align: center;
+  margin:auto;
+  margin-top: 50px;
+  padding:20px 100px;
+  height: 150px;
+}
+
+#dialogbox > button{
+  color: #fff;
+  background-color: #6496c8;
+  text-shadow: -1px 1px #417cb8;
+  border: none;
+  padding: 10px 20px;
+}
+
+#dialogbox > button:hover,
+section.flat button.hover {
+  background-color: #346392;
+  text-shadow: -1px 1px #27496d;
+}
+
+#dialogbox > button:active,
+section.flat button.active {
+  background-color: #27496d;
+  text-shadow: -1px 1px #193047;
+}
+
+#dialogbox > p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px; 
+  font-weight: bold;
+}
+
+#dialogbox > img {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+ 
+}
